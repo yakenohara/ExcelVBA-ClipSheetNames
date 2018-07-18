@@ -1,4 +1,4 @@
-Attribute VB_Name = "シート名一覧toClipBoard"
+Attribute VB_Name = "SheetNamesToClipBoard"
 '注意
 ' このモジュールは、DataObjectを使用してクリップボードに文字列を送ります。
 ' DataObjectを使用するには「Microsoft Forms 2.0 Object Library」への参照が必要です。
@@ -14,7 +14,7 @@ Attribute VB_Name = "シート名一覧toClipBoard"
 '
 '開いているブックのシート一覧をクリップボードに貼り付けます
 'クリップボードへの貼り付けはsetClipBoadのコメントを参照
-Sub シート名一覧toClipBoard()
+Sub SheetNamesToClipBoard()
     'シート名の文字列を保持します
     Dim workSheetNames As String
       
