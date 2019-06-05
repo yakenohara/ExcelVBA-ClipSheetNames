@@ -1,4 +1,4 @@
-Attribute VB_Name = "SheetNamesToClipBoard"
+Attribute VB_Name = "ClipSheetNames"
 '<License>------------------------------------------------------------
 '
 ' Copyright (c) 2018 Shinnosuke Yakenohara
@@ -21,7 +21,7 @@ Attribute VB_Name = "SheetNamesToClipBoard"
 '
 '開いているブックのシート一覧をクリップボードに貼り付けます
 'クリップボードへの貼り付けはsetClipBoadのコメントを参照
-Sub SheetNamesToClipBoard()
+Sub ClipSheetNames()
     'シート名の文字列を保持します
     Dim workSheetNames As String
       
